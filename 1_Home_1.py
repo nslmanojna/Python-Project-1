@@ -24,3 +24,39 @@ print("Hello, World!")
 
 # Download Python
 # Download Python from the official Python web site: https://python.org
+
+#Practice Programs
+#Print your name
+name = "John Doe"
+print("My name is", name)
+
+#Add two numbers
+a=10
+b=20
+print("The sum of a and b is:", a + b)
+
+#Find square of a number
+number=int(input("Enter a number: "))
+square=number*number
+print("The square of", number, "is", square)
+
+#Simple calculator
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+#Addition
+sum = num1 + num2
+print("Sum is: ", sum)
+#Subtraction
+difference = num1 - num2
+print("Difference is: ", difference)
+#Multiplication
+product = num1 * num2
+print("Product is: ", product)
+#Division
+division = num1 / num2
+
+if num2 != 0:
+    division = num1 / num2
+    print("Division is: ", division)
+else:
+    print("Error: Division by zero is not allowed.")
